@@ -1,0 +1,22 @@
+/**********
+ Setting Variables
+ **********/
+
+$mainColor: #1a1f3e;
+$color-text: #000;
+$color-bg: #ececec;
+$color-link: #000;
+$color-link-hover: #000;
+$color-info: #000;
+
+/**********
+ Main Style
+ **********/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}

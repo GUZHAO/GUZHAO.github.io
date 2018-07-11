@@ -1,0 +1,13 @@
+/**********
+ Setting Variables
+ **********/
+/**********
+ Main Style
+ **********/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=index.css.map */
