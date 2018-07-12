@@ -10,4 +10,49 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  margin: 0;
+  font-family: 'Quicksand', serif;
+  min-height: 100vh;
+  color: #1a1f3e;
+  background-color: #fff; }
+
+.hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  pointer-events: none; }
+
+main {
+  position: relative; }
+
+.content {
+  position: relative; }
+
+.header {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem; }
+
+.header__title {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0; }
+
+.icon {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+  fill: currentColor; }
+
+social {
+  margin: 0 0 0 auto;
+  float: right; }
+
 /*# sourceMappingURL=index.css.map */
