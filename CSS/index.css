@@ -27,9 +27,6 @@ body {
 main {
   position: relative; }
 
-.content {
-  position: relative; }
-
 .header {
   position: relative;
   z-index: 100;
@@ -51,7 +48,7 @@ main {
   margin: 0 auto;
   fill: currentColor; }
 
-social {
+.social {
   margin: 0 0 0 auto;
   float: right; }
 
