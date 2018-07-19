@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <!-- Required meta tags -->
+    <!-- need to do SEO -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="It's a blog">
@@ -22,26 +23,26 @@
 </head>
 <body class="container">
 <header class="w-100 m-auto position-relative py-5">
-    <div class="logo row w-100 m-auto justify-content-center">guzhao</div>
-    <ul class="mainMenu nav h6 justify-content-center pt-5 pb-1">
-        <li class="nav-link about"><a href="#">about</a></li>
-        <li class="nav-link info"><a href="#">information</a></li>
-        <li class="nav-link illus"><a href="#">illustration</a></li>
-        <li class="nav-link work"><a href="#">works</a></li>
+    <div class="logo row h1 w-100 m-auto justify-content-center">guzhao</div>
+    <ul class="mainMenu__list nav justify-content-center pt-5 pb-1">
+        <li class="mainMenu__item mainMenu__item--current nav-link"><a href="#"
+                                                                       class="mainMenu__link text-dark">about</a></li>
+        <li class="mainMenu__item nav-link"><a href="#" class="mainMenu__link text-dark">information</a></li>
+        <li class="mainMenu__item nav-link"><a href="#" class="mainMenu__link text-dark">illustration</a></li>
+        <li class="mainMenu__item nav-link"><a href="#" class="mainMenu__link text-dark">work</a></li>
     </ul>
     <nav class="subMenu nav justify-content-center">
-        <a class="codepen nav-link" href="https://codepen.io/sakurazome/" title="Codepen" target="_blank">
+        <a class="codepen nav-link text-dark" href="https://codepen.io/sakurazome" title="Codepen" target="_blank">
             <i class="fab fa-codepen"></i>
         </a>
-        <a class="github nav-link" href="https://github.com/GUZHAO" title="GitHub" target="_blank">
+        <a class="github nav-link text-dark" href="https://github.com/GUZHAO" title="GitHub" target="_blank">
             <i class="fab fa-github"></i>
         </a>
-        <a class="twitter nav-link" href="https://twitter.com/djasparz" title="Twitter" target="_blank">
+        <a class="twitter nav-link text-dark" href="https://twitter.com/djasparz" title="Twitter" target="_blank">
             <i class="fab fa-twitter"></i>
         </a>
     </nav>
 </header>
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -60,5 +61,31 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js"></script>
 <!-- Custom JS -->
 <script src="JS/index.js"></script>
+<script src="JS/classie.js"></script>
+<script>
+    (function () {
+        [].slice.call(document.querySelectorAll('.mainMenu__list')).forEach(function (menu) {
+            var menuItems = menu.querySelectorAll('.mainMenu__link'),
+                setCurrent = function (ev) {
+                    ev.preventDefault();
+
+                    var item = ev.target.parentNode; // li
+
+                    // return if already current
+                    if (classie.has(item, 'mainMenu__item--current')) {
+                        return false;
+                    }
+                    // remove current
+                    classie.remove(menu.querySelector('.mainMenu__item--current'), 'mainMenu__item--current');
+                    // set current
+                    classie.add(item, 'mainMenu__item--current');
+                };
+
+            [].slice.call(menuItems).forEach(function (el) {
+                el.addEventListener('click', setCurrent);
+            });
+        });
+    })(window);
+</script>
 </body>
 </html>
