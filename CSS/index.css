@@ -24,29 +24,25 @@ body {
   font-family: 'brushfont', serif; }
 
 .mainMenu__item {
-  position: relative;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column; }
+  position: relative; }
 
 .mainMenu__item::before {
   content: '';
   position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  width: 50%;
   height: 4px;
   background: #d94f5c;
-  -webkit-transform: rotate3d(0, 0, 1, -90deg) scale3d(0, 1, 1);
-  transform: rotate3d(0, 0, 1, -90deg) scale3d(0, 1, 1);
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) scale3d(0, 1, 1);
+  transform: rotate3d(0, 0, 1, -45deg) scale3d(0, 1, 1);
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
   -webkit-transition: -webkit-transform 0.4s;
   transition: transform 0.4s; }
 
 .mainMenu__item.mainMenu__item--current::before {
-  transform: rotate3d(0, 0, 1, -90deg) scale3d(1, 1, 1); }
+  transform: rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1); }
 
 .mainMenu__link {
   position: relative;
