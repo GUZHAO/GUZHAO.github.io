@@ -23,40 +23,6 @@ body {
 .logo {
   font-family: 'brushfont', serif; }
 
-.mainMenu__item {
-  position: relative; }
-
-.mainMenu__item::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  background: url("bg/Asset 3.svg") no-repeat;
-  -webkit-transform: rotate3d(0, 0, 1, 0deg) scale3d(0, 1, 1);
-  transform: rotate3d(0, 0, 1, 0deg) scale3d(0, 1, 1);
-  -webkit-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s; }
-
-.mainMenu__item.mainMenu__item--current::before {
-  transform: rotate3d(0, 0, 1, 0deg) scale3d(1, 1, 1); }
-
-.mainMenu__link {
-  position: relative;
-  color: #929292;
-  -webkit-transition: color 0.4s;
-  transition: color 0.4s; }
-
-.mainMenu__link:hover,
-.mainMenu__link:focus {
-  color: #d94f5c; }
-
-.mainMenu__item.mainMenu__item--current.mainMenu__link {
-  color: #333; }
-
 .subMenu {
   border-top: 3px solid #000; }
 
