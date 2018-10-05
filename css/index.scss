@@ -34,6 +34,11 @@ a {
   text-decoration: none !important;
 }
 
+a:link,
+a:visited {
+  color: $color-theme;
+}
+
 img {
   width: 140px;
   height: 140px;
@@ -114,6 +119,12 @@ footer a {
   outline: none;
   margin: auto;
   color: $color-theme;
+  background-color: $color-bg !important;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
 }
 
 .btn:after,

@@ -24,6 +24,10 @@ body {
 a {
   text-decoration: none !important; }
 
+a:link,
+a:visited {
+  color: #4689c7; }
+
 img {
   width: 140px;
   height: 140px; }
@@ -90,7 +94,12 @@ footer a {
   border: none;
   outline: none;
   margin: auto;
-  color: #4689c7; }
+  color: #4689c7;
+  background-color: #fff !important; }
+
+.btn:focus,
+.btn:active {
+  outline: none; }
 
 .btn:after,
 .btn:before {
