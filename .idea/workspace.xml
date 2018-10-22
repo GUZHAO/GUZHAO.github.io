@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fdfda-4493-4eb9-8247-9f093b782e15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/amp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/LinkedIn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/LinkedIn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/arcade.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/arcade.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/feed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/feed.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/footer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/game.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/game.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/p1_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/p1_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/img/restaurant.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/restaurant.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +61,7 @@
           <entry key="html" value="10" />
           <entry key="js" value="1" />
           <entry key="map" value="1" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="scss" value="4" />
         </counts>
       </usages-collector>
@@ -84,7 +70,7 @@
           <entry key="CSS" value="5" />
           <entry key="HTML" value="10" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="SCSS" value="4" />
           <entry key="SourceMap" value="1" />
         </counts>
@@ -92,21 +78,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="82" />
-          <entry key="md" value="200" />
+          <entry key="md" value="202" />
           <entry key="scss" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="82" />
-          <entry key="Markdown" value="200" />
+          <entry key="Markdown" value="202" />
           <entry key="SCSS" value="151" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.3539749">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
@@ -123,10 +109,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="360">
+                    <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -150,8 +139,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/amp/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -227,12 +216,12 @@
       <workItem from="1538704765556" duration="833000" />
       <workItem from="1538705969464" duration="1735000" />
       <workItem from="1539197213273" duration="963000" />
-      <workItem from="1540240269231" duration="1595000" />
+      <workItem from="1540240269231" duration="1776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5562000" />
+    <option name="totallyTimeSpent" value="5743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -285,16 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-134">
@@ -306,6 +285,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
