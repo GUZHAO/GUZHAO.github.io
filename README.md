@@ -12,4 +12,4 @@ This **Github Site** is mobile-ready and a place for people to get to know about
 
 * [bootstrap](https://getbootstrap.com/)
 * [particles.js](https://vincentgarreau.com/particles.js/)
-
+* [PWA](https://developers.google.com/web/progressive-web-apps/)
