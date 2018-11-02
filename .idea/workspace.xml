@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fdfda-4493-4eb9-8247-9f093b782e15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pwaTest/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/css/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/css/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/LinkedIn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/arcade.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/feed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/game.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/p1_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/img/restaurant.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/js/particlesjs-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwaTest/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwaTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pwaTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwaTest/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/pwaTest/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,35 +121,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9" />
+          <entry key="html" value="24" />
+          <entry key="js" value="62" />
+          <entry key="json" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="24" />
+          <entry key="JSON" value="52" />
+          <entry key="JavaScript" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="11" />
+          <entry key="ico" value="1" />
+          <entry key="js" value="16" />
+          <entry key="json" value="6" />
+          <entry key="md" value="1" />
+          <entry key="png" value="3" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="11" />
+          <entry key="Image" value="4" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="16" />
+          <entry key="Markdown" value="1" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.354493">
+    <splitter split-orientation="horizontal" split-proportion="0.39901072">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+            <entry file="file://$PROJECT_DIR$/pwaTest/manifest.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                <state relative-caret-position="336">
+                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -140,10 +176,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pwaTest/index.html">
+            <entry file="file://$PROJECT_DIR$/pwaTest/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                <state relative-caret-position="336">
+                  <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -156,6 +192,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -168,9 +205,12 @@
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/amp/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pwaTest/site.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pwaTest/index.html" />
+        <option value="$PROJECT_DIR$/pwaTest/manifest.json" />
+        <option value="$PROJECT_DIR$/pwaTest/sw.js" />
       </list>
     </option>
   </component>
@@ -198,6 +238,11 @@
               <item name="guzhao.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="guzhao.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pwaTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,6 +256,10 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pwaTest" />
+      <recent name="$PROJECT_DIR$/pwaTest/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/" />
@@ -243,12 +292,12 @@
       <workItem from="1538705969464" duration="1735000" />
       <workItem from="1539197213273" duration="963000" />
       <workItem from="1540240269231" duration="2468000" />
-      <workItem from="1541171936212" duration="871000" />
+      <workItem from="1541171936212" duration="6385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7306000" />
+    <option name="totallyTimeSpent" value="12820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -291,23 +340,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amp/index.html">
+    <entry file="file://$PROJECT_DIR$/ampTest/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -321,17 +360,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/p1_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/img/feed.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwaTest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="167">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/img/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwaTest/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
