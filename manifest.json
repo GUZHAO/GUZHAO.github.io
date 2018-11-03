@@ -7,7 +7,7 @@
   "background_color": "#111111",
   "icons": [
     {
-      "src": "pwaTest/img/icon.png",
+      "src": "img/icon.png",
       "sizes": "141x156",
       "type": "image/png"
     }
