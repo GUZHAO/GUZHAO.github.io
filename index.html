@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Lato Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">    <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
             integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
             crossorigin="anonymous"></script>
@@ -27,8 +26,17 @@
 <div id="particles-js"></div>
 <div class="container">
     <header class="header position-relative py-2">
-        <div class="row">
-            <nav class="socialLink nav col justify-content-end">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb quickLink d-flex w-100 justify-content-center">
+                <li class="breadcrumb-item active" aria-current="page">about</li>
+                <li class="breadcrumb-item"><a class="font-weight-light" href="#works">resume</a></li>
+            </ol>
+        </nav>
+        <div class="myName row d-flex h1 my-3 font-weight-bold justify-content-center">
+            guzhao
+        </div>
+        <div class="row my-5">
+            <nav class="socialLink nav col justify-content-center">
                 <a class="codepen nav-link" href="https://codepen.io/sakurazome" title="Codepen" target="_blank">
                     <i class="fab fa-codepen"></i>
                 </a>
@@ -40,78 +48,57 @@
                 </a>
             </nav>
         </div>
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb quickLink d-flex w-100 justify-content-center">
-                <li class="breadcrumb-item active" aria-current="page">about</li>
-                <li class="breadcrumb-item"><a class="font-weight-light" href="#works">works</a></li>
-            </ol>
-        </nav>
-        <div class="myName row d-flex h1 font-weight-bold justify-content-center">
-            Gu Zhao
-        </div>
-        <div class="divider w-100 position-relative my-5"></div>
+        <div class="divider position-relative"></div>
     </header>
     <div id="works" class="row m-auto">
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/game.svg" alt="memory game">
                 <div class="card-body">
                     <h5 class="card-title">Memory Game</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/arcade.svg" alt="arcade">
                 <div class="card-body">
                     <h5 class="card-title">Classic Arcade Game Clone</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/feed.svg" alt="feed reader">
                 <div class="card-body">
                     <h5 class="card-title">Feed Reader Testing</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
     </div>
     <div id="works2" class="row m-auto">
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/LinkedIn.svg" alt="linkedin">
                 <div class="card-body">
                     <h5 class="card-title">Build LinkedIn Profile</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/github.svg" alt="github">
                 <div class="card-body">
                     <h5 class="card-title">Optimize GitHub Profile</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-0 shadow-lg my-5">
-                <img class="card-img-top pt-3" src="img/restaurant.svg" alt="restaurant">
                 <div class="card-body">
                     <h5 class="card-title">Restaurant Review App</h5>
                     <p class="card-text">Place holder for project description.</p>
                 </div>
-                <button type="button" class="btn my-2"><a href="#">Coming Soon</a></button>
             </div>
         </div>
     </div>

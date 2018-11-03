@@ -4,9 +4,10 @@
  *
  */
 
-$color-theme: #4689c7;
+$color-theme: #457f5c;
 $color-text: #000;
 $color-bg: #fff;
+$font-theme: 'Comfortaa', cursive;
 
 /*
  *
@@ -23,11 +24,11 @@ html {
 }
 
 body {
-  font-family: 'Lato', serif;
+  font-family: $font-theme;
   padding-left: 0 !important;
   padding-right: 0 !important;
   min-height: 100vh;
-  color: $color-theme;
+  background-color: $color-bg;
 }
 
 a {
@@ -60,7 +61,7 @@ canvas {
   width: 100%;
   height: 25%;
   background-size: cover;
-  background: $color-bg no-repeat 50% 50%;
+  background: #fff no-repeat 50% 50%;
 }
 
 nav.socialLink a {
@@ -90,12 +91,7 @@ nav.socialLink a {
 .divider {
   top: -10px;
   z-index: 9999;
-  border-top: 1px solid $color-theme;
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-  -ms-transform: rotate(1deg);
-  -o-transform: rotate(1deg);
-  transform: rotate(1deg);
+  border-top: 2px solid $color-theme;
 }
 
 .card {
@@ -106,41 +102,3 @@ footer a {
   color: #7952b3;
 }
 
-/* Button Effect Inspired by David Conner CODEPEN https://codepen.io/davidicus/pen/emgQKJ */
-.btn {
-  font-size: 18px;
-  position: relative;
-  border: none;
-  outline: none;
-  margin: auto;
-  color: $color-theme;
-  background-color: $color-bg !important;
-}
-
-.btn:focus,
-.btn:active {
-  outline: none;
-}
-
-.btn:after,
-.btn:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: $color-theme;
-  transition: all 0.3s ease;
-  transform: scale(0.85);
-}
-
-.btn:hover:before {
-  top: 0;
-  transform: scale(1);
-}
-
-.btn:hover:after {
-  transform: scale(1);
-}
