@@ -1,9 +1,9 @@
 {
-  "name": "Gu Zhao Site",
+  "name": "Gu Zhao GitHub Site",
   "short_name": "GZ",
   "display": "minimal-ui",
-  "start_url": "/",
-  "theme_color": "#673ab6",
+  "start_url": "/index.html",
+  "theme_color": "#457f5c",
   "background_color": "#111111",
   "icons": [
     {

@@ -2,18 +2,18 @@ self.addEventListener('fetch', function (event) {
     /** An empty fetch handler! */
 });
 
-self.addEventListener('install', function (e) {
-    e.waitUntil(
-        caches.open('the-magic-cache').then(function (cache) {
-            return cache.addAll([
-                // '/',
-                // 'pwaTest/index.html',
-                '/main.js',
-                // '/site.js'
-            ]);
-        })
-    );
-});
+// self.addEventListener('install', function (e) {
+//     e.waitUntil(
+//         caches.open('the-magic-cache').then(function (cache) {
+//             return cache.addAll([
+//                 // '/',
+//                 // 'pwaTest/index.html',
+//                 // '/main.js',
+//                 // '/site.js'
+//             ]);
+//         })
+//     );
+// });
 
 self.addEventListener('fetch', function (event) {
     if (event.request.url === 'https://guzhao.github.io./') {
