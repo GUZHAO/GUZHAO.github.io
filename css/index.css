@@ -26,6 +26,7 @@ li {
   color: #fff; }
 
 a {
+  display: block;
   text-decoration: none !important; }
 
 a:link,
