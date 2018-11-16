@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fdfda-4493-4eb9-8247-9f093b782e15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ampTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/amp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,29 +107,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="548" />
+          <entry key="html" value="562" />
           <entry key="js" value="73" />
           <entry key="json" value="69" />
           <entry key="md" value="10" />
-          <entry key="scss" value="496" />
+          <entry key="scss" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="548" />
+          <entry key="HTML" value="562" />
           <entry key="JSON" value="69" />
           <entry key="JavaScript" value="73" />
           <entry key="Markdown" value="10" />
-          <entry key="SCSS" value="496" />
+          <entry key="SCSS" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="22" />
+          <entry key="html" value="23" />
           <entry key="ico" value="2" />
-          <entry key="js" value="37" />
+          <entry key="js" value="38" />
           <entry key="json" value="13" />
           <entry key="md" value="3" />
           <entry key="png" value="10" />
@@ -137,10 +140,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="23" />
           <entry key="Image" value="12" />
           <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="37" />
+          <entry key="JavaScript" value="38" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="4" />
@@ -150,14 +153,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5407407">
+    <splitter split-orientation="horizontal" split-proportion="0.5893004">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2040">
-                  <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+                <state relative-caret-position="418">
+                  <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -169,8 +172,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="984">
-                  <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+                <state relative-caret-position="1464">
+                  <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -202,9 +205,9 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/sw.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -302,15 +305,16 @@
       <workItem from="1541270474042" duration="4321000" />
       <workItem from="1541298022370" duration="7234000" />
       <workItem from="1541555070317" duration="2924000" />
-      <workItem from="1542404047930" duration="337000" />
+      <workItem from="1542404047930" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30772000" />
+    <option name="totallyTimeSpent" value="31563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -402,11 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/site.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -428,17 +427,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="1464">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>

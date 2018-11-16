@@ -26,8 +26,8 @@ html {
 
 body {
   font-family: $font-theme;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
   min-height: 100vh;
   background-color: $color-bg;
   color: $color-text;
@@ -39,7 +39,7 @@ li {
 
 a .card-link {
   display: block;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 a:link,
@@ -57,6 +57,10 @@ img {
  * Main Style
  *
  */
+
+.container {
+  display: flex;
+}
 
 canvas {
   display: block;

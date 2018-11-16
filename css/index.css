@@ -16,8 +16,8 @@ html {
 
 body {
   font-family: "Comfortaa", cursive;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
   min-height: 100vh;
   background-color: #212b2f;
   color: #fff; }
@@ -27,7 +27,7 @@ li {
 
 a .card-link {
   display: block;
-  text-decoration: none !important; }
+  text-decoration: none; }
 
 a:link,
 a:visited {
@@ -42,6 +42,9 @@ img {
  * Main Style
  *
  */
+.container {
+  display: flex; }
+
 canvas {
   display: block;
   vertical-align: bottom; }
