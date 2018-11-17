@@ -26,42 +26,28 @@ html {
 
 body {
   font-family: $font-theme;
-  padding-left: 0;
-  padding-right: 0;
-  min-height: 100vh;
   background-color: $color-bg;
-  color: $color-text;
 }
 
-li {
-  color: $color-text;
-}
-
-a .card-link {
-  display: block;
-  text-decoration: none;
-}
-
-a:link,
-a:visited {
-  color: $color-theme;
-}
-
-img {
-  width: 140px;
-  height: 140px;
-}
+//li {
+//  color: $color-text;
+//}
+//
+//a .card-link {
+//  display: block;
+//  text-decoration: none;
+//}
+//
+//a:link,
+//a:visited {
+//  color: $color-theme;
+//}
 
 /*
  *
  * Main Style
  *
  */
-
-.container {
-  display: flex;
-}
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -75,48 +61,61 @@ canvas {
   background: $color-bg no-repeat 50% 50%;
 }
 
-nav.socialLink a {
-  color: $color-theme;
-}
-
-.quickLink {
-  background: transparent !important;
-  text-decoration: none;
-}
-
-.quickLink li {
-  font-size: 12px;
-  color: $color-theme;
-}
-
-.quickLink li a {
-  color: $color-theme;
-}
-
-.myName {
-  font-size: 60px;
-  color: $color-theme;
-  text-shadow: 3px -3px 2px rgba(0, 133, 255, 0.1);
-}
-
-.card {
-  background-color: $color-bg;
-  color: $color-card-text;
-  cursor: pointer;
-}
-
-.card-title {
-  color: $color-theme;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
-  .card-text {
-    color: $color-text;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  header {
+    z-index: 9999;
   }
 }
 
-footer a {
-  color: #7952b3;
-}
+//.quickLink {
+//  background: transparent !important;
+//  text-decoration: none;
+//}
+//
+//.quickLink li {
+//  font-size: 12px;
+//  color: $color-theme;
+//}
+//
+//.quickLink li a {
+//  color: $color-theme;
+//}
+//
+//nav.socialLink a {
+//  color: $color-theme;
+//}
+//
+//
+//.myName {
+//  font-size: 60px;
+//  color: $color-theme;
+//  text-shadow: 3px -3px 2px rgba(0, 133, 255, 0.1);
+//}
+//
+//.card {
+//  background-color: $color-bg;
+//  color: $color-card-text;
+//  cursor: pointer;
+//}
+//
+//.card-title {
+//  color: $color-theme;
+//}
+//
+//.card:hover {
+//  transform: scale(1.05);
+//  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+//  .card-text {
+//    color: $color-text;
+//  }
+//}
+//
+//footer a {
+//  color: #7952b3;
+//}
