@@ -90,40 +90,42 @@ canvas {
     justify-content: space-evenly;
     margin-top: 12em;
     width: 60%;
-    .project-item {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      transition: 0.3s;
-      height: 100%;
+    a {
       margin: 1em;
-      .project-icon {
-        align-self: flex-end;
-        margin: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
-        border: none;
-        border-radius: 40px;
-        background-color: $color-theme;
-        color: $color-text;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        pointer-events: none;
+      .project-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 100%;
+        .project-icon {
+          align-self: flex-end;
+          margin: 1em;
+          padding-left: 1em;
+          padding-right: 1em;
+          border: none;
+          border-radius: 40px;
+          background-color: $color-theme;
+          color: $color-text;
+          font-weight: bold;
+          text-align: center;
+          text-decoration: none;
+          pointer-events: none;
+        }
+        .project-intro {
+          align-self: center;
+          margin: 1em;
+          font-weight: bold;
+        }
+        .project-stack {
+          align-self: center;
+          margin: 1em;
+        }
       }
-      .project-intro {
-        align-self: center;
-        margin: 1em;
-        font-weight: bold;
+      .project-item:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       }
-      .project-stack {
-        align-self: center;
-        margin: 1em;
-      }
-    }
-    .project-item:hover {
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
   }
 }
