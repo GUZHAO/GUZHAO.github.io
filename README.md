@@ -6,10 +6,9 @@ This **Github Site** is mobile-ready and a place for people to get to know about
 
 ##### Features
 * Works
-* Reading/Learning Notes
+* Reading/Learning Notes (coming soon)
 
 ##### Credits
 
-* [bootstrap](https://getbootstrap.com/)
 * [particles.js](https://vincentgarreau.com/particles.js/)
 * [PWA](https://developers.google.com/web/progressive-web-apps/)
