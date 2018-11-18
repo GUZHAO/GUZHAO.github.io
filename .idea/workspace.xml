@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fdfda-4493-4eb9-8247-9f093b782e15" name="Default Changelist" comment="">
-      <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/ampTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/amp/index.html" afterDir="false" />
-      =======
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      >>>>>>> parent of 968e03a... fix: ignore xml file
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,19 +306,13 @@
       <workItem from="1541270474042" duration="4321000" />
       <workItem from="1541298022370" duration="7234000" />
       <workItem from="1541555070317" duration="2924000" />
-      <<<<<<< HEAD
       <workItem from="1542404047930" duration="337000" />
-      =======
-      >>>>>>> parent of 968e03a... fix: ignore xml file
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <<<<<<< HEAD
     <option name="totallyTimeSpent" value="30772000" />
-    =======
     <option name="totallyTimeSpent" value="30435000" />
-    >>>>>>> parent of 968e03a... fix: ignore xml file
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
