@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fdfda-4493-4eb9-8247-9f093b782e15" name="Default Changelist" comment="">
+
       <change beforePath="$PROJECT_DIR$/ampTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/amp/index.html" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
@@ -307,12 +309,18 @@
       <workItem from="1541298022370" duration="7234000" />
       <workItem from="1541555070317" duration="2924000" />
       <workItem from="1542404047930" duration="337000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="30772000" />
+
     <option name="totallyTimeSpent" value="30435000" />
+
+    <option name="totallyTimeSpent" value="30435000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
