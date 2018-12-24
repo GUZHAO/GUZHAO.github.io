@@ -79,7 +79,7 @@ canvas {
 .container .main {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   padding-top: 3em;
 }
@@ -93,21 +93,19 @@ canvas {
   color: #e34797;
   font-weight: bold;
 }
-.container .main .project {
+.container .project {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding-right: 9em;
+  justify-content: center;
 }
-.container .main .project a .project-item {
+.container .project a .project-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  transition: 0.3s;
+  justify-content: center;
   height: 100%;
 }
-.container .main .project a .project-item .project-icon {
-  align-self: flex-end;
+.container .project a .project-item .project-icon {
+  align-self: center;
   margin: 1em;
   padding-left: 1em;
   padding-right: 1em;
@@ -120,15 +118,11 @@ canvas {
   text-decoration: none;
   pointer-events: none;
 }
-.container .main .project a .project-item .project-intro {
+.container .project a .project-item .project-intro {
   align-self: center;
   margin: 1em;
-  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
-}
-.container .main .project a .project-item .project-stack {
-  align-self: center;
-  margin: 1em;
 }
 
 /*# sourceMappingURL=index.css.map */

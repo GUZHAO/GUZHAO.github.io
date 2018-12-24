@@ -92,7 +92,7 @@ canvas {
   .main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding-top: 3em;
 
@@ -108,51 +108,42 @@ canvas {
       }
 
     }
+  }
 
-    .project {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      padding-right: 9em;
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-      a {
+    a {
 
-        .project-item {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          transition: 0.3s;
-          height: 100%;
+      .project-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
 
-          .project-icon {
-            align-self: flex-end;
-            margin: 1em;
-            padding-left: 1em;
-            padding-right: 1em;
-            border: none;
-            border-radius: 40px;
-            background-color: $color-theme;
-            color: $color_bg;
-            font-weight: bold;
-            text-align: center;
-            text-decoration: none;
-            pointer-events: none;
-          }
-
-          .project-intro {
-            align-self: center;
-            margin: 1em;
-            font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
-            line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
-
-          }
-
-          .project-stack {
-            align-self: center;
-            margin: 1em;
-          }
+        .project-icon {
+          align-self: center;
+          margin: 1em;
+          padding-left: 1em;
+          padding-right: 1em;
+          border: none;
+          border-radius: 40px;
+          background-color: $color-theme;
+          color: $color_bg;
+          font-weight: bold;
+          text-align: center;
+          text-decoration: none;
+          pointer-events: none;
         }
 
+        .project-intro {
+          align-self: center;
+          margin: 1em;
+          font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+          line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+        }
       }
     }
   }
