@@ -151,22 +151,46 @@ canvas {
   font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
-
-footer {
+.container footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 5em;
 }
-footer .footer-left {
+.container footer .footer-left {
   color: #cccccc;
   font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
-footer .footer-right {
+.container footer .footer-right {
   color: #cccccc;
   font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+@media screen and (max-width: 800px) {
+  .container .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2em;
+  }
+  .container .content .content-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 3em;
+    width: 100%;
+  }
+  .container .content .content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5em;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
